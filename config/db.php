@@ -1,27 +1,18 @@
 <?php
+$host = getenv('DB_HOST') ?: 'mysql-1598f483-bhagwagardenish-371d.g.aivencloud.com';
+$user = getenv('DB_USER') ?: 'avnadmin';
+$pass = getenv('DB_PASS'); // Loaded from Vercel / environment variable
+$db = getenv('DB_NAME') ?: 'defaultdb';
+$port = (int) (getenv('DB_PORT') ?: 21840);
 
-$host = getenv("DB_HOST");
-$username = getenv("DB_USER");
-$password = getenv("DB_PASSWORD");
-$database = getenv("DB_NAME");
+$ssl_ca = dirname(__DIR__) . '/certs/ca.pem';
 
 $conn = mysqli_init();
+$conn->ssl_set(NULL, NULL, $ssl_ca, NULL, NULL);
 
-mysqli_options($conn, MYSQLI_OPT_CONNECT_TIMEOUT, 10);
+$connected = $conn->real_connect($host, $user, $pass, $db, $port, NULL, MYSQLI_CLIENT_SSL);
 
-if (
-    !mysqli_real_connect(
-        $conn,
-        $host,
-        $username,
-        $password,
-        $database,
-        (int) (getenv("DB_PORT") ?: 3306)
-    )
-) {
-    error_log("Database connection failed: " . mysqli_connect_error());
-    http_response_code(500);
-    exit("Database connection failed. Please try again later.");
+if (!$connected) {
+    die("Connection failed: " . mysqli_connect_error());
 }
-
-mysqli_set_charset($conn, "utf8mb4");
+?>
