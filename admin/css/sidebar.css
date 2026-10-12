@@ -1,0 +1,397 @@
+.sidebar {
+    width: 260px;
+    background: #2d140a;
+
+    height: 100vh;
+
+    padding: 35px 25px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    box-sizing: border-box;
+
+    z-index: 1000;
+}
+html,
+body{
+height:100%;
+overflow-x:hidden;
+}
+
+.logo{
+color:#fff;
+font-size:42px;
+font-weight:700;
+line-height:1.1;
+margin-bottom:10px;
+}
+
+.admin-text{
+color:#fff;
+font-size:28px;
+margin-bottom:50px;
+}
+
+.menu{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.menu > li {
+    margin-bottom: 16px;
+}
+
+.menu li a{
+display:flex;
+align-items:center;
+gap:14px;
+padding:14px 18px;
+border-radius:14px;
+color:#fff;
+text-decoration:none;
+font-size:18px;
+transition:.3s;
+}
+
+.menu > li > a:hover,
+.menu > li > a.active {
+    background: #7A2E0D;
+    color: #fff;
+}
+
+.main-content{
+margin-left:260px;
+padding:35px;
+}
+/* ==================================================
+   CONTENT MANAGEMENT DROPDOWN
+================================================== */
+
+.cms-menu-item {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+
+/* =========================================
+   MAIN CONTENT MANAGEMENT BUTTON
+========================================= */
+
+.cms-menu-toggle {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 12px;
+
+    padding: 14px 18px;
+
+    background: transparent;
+    border: none;
+    border-radius: 14px;
+
+    color: #ffffff;
+
+    font-size: 18px;
+    font-family: inherit;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    transition:
+        background 0.3s ease,
+        color 0.3s ease;
+}
+
+
+/* LEFT SIDE: ICON + TEXT */
+
+.cms-menu-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    min-width: 0;
+}
+
+
+/* MAIN CMS ICON */
+
+.cms-menu-left > i {
+    flex-shrink: 0;
+}
+
+
+/* HOVER */
+
+.cms-menu-toggle:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+
+/* OPEN / ACTIVE CMS BUTTON */
+
+.cms-menu-toggle.cms-expanded,
+.cms-menu-toggle.active {
+    background: #7A2E0D;
+    color: #ffffff;
+}
+
+
+/* =========================================
+   DROPDOWN ARROW
+========================================= */
+
+.cms-arrow {
+    margin-left: auto;
+
+    flex-shrink: 0;
+
+    transition: transform 0.3s ease;
+}
+
+
+/* ARROW WHEN OPEN */
+
+.cms-arrow.cms-arrow-open {
+    transform: rotate(180deg);
+}
+
+
+/* =========================================
+   CMS SUBMENU
+========================================= */
+
+.cms-submenu {
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+
+    max-height: 0;
+
+    opacity: 0;
+
+    overflow: hidden;
+
+    visibility: hidden;
+
+    transform: translateY(-8px);
+
+    transition:
+        max-height 0.35s ease,
+        opacity 0.25s ease,
+        transform 0.35s ease,
+        margin 0.35s ease;
+}
+
+
+/* OPEN SUBMENU */
+
+.cms-submenu.cms-open {
+    max-height: 300px;
+
+    opacity: 1;
+
+    visibility: visible;
+
+    transform: translateY(0);
+
+    margin-top: 10px;
+}
+
+
+/* =========================================
+   SUBMENU LIST ITEMS
+========================================= */
+
+.cms-submenu li {
+    margin: 4px 0;
+}
+
+
+/* SUBMENU LINKS */
+
+.cms-submenu li a {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 11px 16px 11px 22px;
+
+    border-radius: 12px;
+
+    color: rgba(255, 255, 255, 0.85);
+
+    font-size: 16px;
+
+    text-decoration: none;
+
+    transition:
+        background 0.25s ease,
+        color 0.25s ease,
+        padding-left 0.25s ease;
+}
+
+
+/* SUBMENU ICON */
+
+.cms-submenu li a i {
+    width: 20px;
+
+    text-align: center;
+
+    flex-shrink: 0;
+}
+
+
+/* SUBMENU HOVER */
+
+.cms-submenu li a:hover {
+    background: rgba(255, 255, 255, 0.10);
+
+    color: #ffffff;
+
+    padding-left: 27px;
+}
+
+
+/* CURRENT ACTIVE CMS PAGE */
+
+.cms-submenu li a.active {
+    background: #7A2E0D;
+
+    color: #ffffff;
+
+    font-weight: 600;
+}
+.cms-menu-item{
+width:100%;
+}
+
+.cms-menu-toggle{
+
+appearance:none;
+
+width:100%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+padding:14px 18px;
+
+border:none;
+
+background:transparent;
+
+color:#fff;
+
+cursor:pointer;
+
+border-radius:14px;
+
+font-size:18px;
+}
+
+.cms-menu-toggle:hover{
+
+background:#7A2E0D;
+
+}
+
+.cms-menu-toggle.cms-expanded{
+
+background:#7A2E0D;
+
+}
+
+.cms-menu-left{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+}
+
+.cms-arrow{
+
+transition:.3s;
+
+}
+
+.cms-arrow.cms-arrow-open{
+
+transform:rotate(180deg);
+
+}
+
+.cms-submenu{
+
+display:none;
+
+padding-left:18px;
+
+margin-top:8px;
+
+}
+
+.cms-submenu.cms-open{
+
+display:block;
+
+}
+
+.cms-submenu li{
+
+margin:5px 0;
+
+}
+
+.cms-submenu li a{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:10px 15px;
+
+border-radius:10px;
+
+text-decoration:none;
+
+color:#fff;
+
+}
+
+.cms-submenu li a:hover{
+
+background:#7A2E0D;
+
+}
+
+.cms-submenu li a.active{
+
+background:#7A2E0D;
+
+color:#fff;
+
+font-weight:600;
+
+}

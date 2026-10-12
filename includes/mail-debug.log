@@ -1,0 +1,2481 @@
+[2026-08-01 00:32:35] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-3153dd4e666sm14266749eec.4 - gsmtp
+[2026-08-01 00:32:35] CLIENT -> SERVER: EHLO localhost
+[2026-08-01 00:32:36] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-01 00:32:36] CLIENT -> SERVER: STARTTLS
+[2026-08-01 00:32:36] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-01 00:32:37] CLIENT -> SERVER: EHLO localhost
+[2026-08-01 00:32:37] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-01 00:32:37] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-01 00:32:37] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-01 00:32:37] CLIENT -> SERVER: [credentials hidden]
+[2026-08-01 00:32:38] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-01 00:32:38] CLIENT -> SERVER: [credentials hidden]
+[2026-08-01 00:32:38] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-01 00:32:38] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-01 00:32:38] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-3153dd4e666sm14266749eec.4 - gsmtp
+[2026-08-01 00:32:38] CLIENT -> SERVER: RCPT TO:<devamparekh120@gmail.com>
+[2026-08-01 00:32:39] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-3153dd4e666sm14266749eec.4 - gsmtp
+[2026-08-01 00:32:39] CLIENT -> SERVER: DATA
+[2026-08-01 00:32:39] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-3153dd4e666sm14266749eec.4 - gsmtp
+[2026-08-01 00:32:39] CLIENT -> SERVER: Date: Sat, 1 Aug 2026 00:32:35 +0200
+[2026-08-01 00:32:39] CLIENT -> SERVER: To: DEVAM parekh <devamparekh120@gmail.com>
+[2026-08-01 00:32:39] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-01 00:32:39] CLIENT -> SERVER: Subject: Your Login OTP - Shreeji Decoration
+[2026-08-01 00:32:39] CLIENT -> SERVER: Message-ID: <0zA85JFSfiIUSSaKdnfzFsXWiYHnGiyy6qiwu0AAmk@localhost>
+[2026-08-01 00:32:39] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-01 00:32:39] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-01 00:32:39] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[2026-08-01 00:32:39] CLIENT -> SERVER:  boundary="b1=_0zA85JFSfiIUSSaKdnfzFsXWiYHnGiyy6qiwu0AAmk"
+[2026-08-01 00:32:39] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-01 00:32:39] CLIENT -> SERVER:
+[2026-08-01 00:32:39] CLIENT -> SERVER: --b1=_0zA85JFSfiIUSSaKdnfzFsXWiYHnGiyy6qiwu0AAmk
+[2026-08-01 00:32:39] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[2026-08-01 00:32:39] CLIENT -> SERVER:
+[2026-08-01 00:32:39] CLIENT -> SERVER: Hello DEVAM parekh,
+[2026-08-01 00:32:39] CLIENT -> SERVER:
+[2026-08-01 00:32:39] CLIENT -> SERVER: Your One-Time Password (OTP) for login is: 432306
+[2026-08-01 00:32:39] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER: This OTP will expire in 5 minutes.
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER: If you did not request this login, simply ignore this email.
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER: Regards,
+[2026-08-01 00:32:40] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER: --b1=_0zA85JFSfiIUSSaKdnfzFsXWiYHnGiyy6qiwu0AAmk
+[2026-08-01 00:32:40] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:         <div style="font-family:Arial,sans-serif;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     max-width:600px;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     margin:auto;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     border:1px solid #eee;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     border-radius:12px;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     overflow:hidden;">
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:             <div style="background:#8B4513;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                         color:#fff;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                         padding:20px;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                         text-align:center;">
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 <h2 style="margin:0;">
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     Shreeji Decoration
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 </h2>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:             </div>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:             <div style="padding:30px;">
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 <h3>Hello DEVAM parekh,</h3>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 <p>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     Your One-Time Password (OTP) for login is:
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 </p>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 <div style="text-align:center;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                             margin:30px 0;">
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     <span style="
+[2026-08-01 00:32:40] CLIENT -> SERVER:                         font-size:36px;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                         letter-spacing:10px;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                         background:#FFF3E0;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                         padding:15px 30px;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                         border-radius:10px;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                         color:#8B4513;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                         font-weight:bold;
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     ">
+[2026-08-01 00:32:40] CLIENT -> SERVER:                         432306
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     </span>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 </div>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 <p>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     This OTP will expire in
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     <b>5 minutes</b>.
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 </p>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 <p>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     If you did not request this login,
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     simply ignore this email.
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 </p>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 <br>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 <p>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     Regards,<br>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                     <b>Shreeji Decoration</b>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:                 </p>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:             </div>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:         </div>
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER: --b1=_0zA85JFSfiIUSSaKdnfzFsXWiYHnGiyy6qiwu0AAmk--
+[2026-08-01 00:32:40] CLIENT -> SERVER:
+[2026-08-01 00:32:40] CLIENT -> SERVER: .
+[2026-08-01 00:32:41] SERVER -> CLIENT: 250 2.0.0 OK  1785537160 5a478bee46e88-3153dd4e666sm14266749eec.4 - gsmtp
+[2026-08-01 00:32:41] CLIENT -> SERVER: QUIT
+[2026-08-01 00:32:41] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-3153dd4e666sm14266749eec.4 - gsmtp
+[2026-08-01 00:33:35] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-3153dd9c93dsm10120985eec.8 - gsmtp
+[2026-08-01 00:33:35] CLIENT -> SERVER: EHLO localhost
+[2026-08-01 00:33:35] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-01 00:33:35] CLIENT -> SERVER: STARTTLS
+[2026-08-01 00:33:36] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-01 00:33:36] CLIENT -> SERVER: EHLO localhost
+[2026-08-01 00:33:37] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-01 00:33:37] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-01 00:33:37] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-01 00:33:37] CLIENT -> SERVER: [credentials hidden]
+[2026-08-01 00:33:37] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-01 00:33:37] CLIENT -> SERVER: [credentials hidden]
+[2026-08-01 00:33:38] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-01 00:33:38] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-01 00:33:38] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-3153dd9c93dsm10120985eec.8 - gsmtp
+[2026-08-01 00:33:38] CLIENT -> SERVER: RCPT TO:<devamparekh120@gmail.com>
+[2026-08-01 00:33:38] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-3153dd9c93dsm10120985eec.8 - gsmtp
+[2026-08-01 00:33:38] CLIENT -> SERVER: DATA
+[2026-08-01 00:33:39] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-3153dd9c93dsm10120985eec.8 - gsmtp
+[2026-08-01 00:33:39] CLIENT -> SERVER: Date: Sat, 1 Aug 2026 00:33:35 +0200
+[2026-08-01 00:33:39] CLIENT -> SERVER: To: devam parekh <devamparekh120@gmail.com>
+[2026-08-01 00:33:39] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-01 00:33:39] CLIENT -> SERVER: Subject: Your Login OTP - Shreeji Decoration
+[2026-08-01 00:33:39] CLIENT -> SERVER: Message-ID: <ghRl5tziQIuhjTbZ78t7OIcoYGdDmcjw1MvkLh3ln8@localhost>
+[2026-08-01 00:33:39] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-01 00:33:39] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-01 00:33:39] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[2026-08-01 00:33:39] CLIENT -> SERVER:  boundary="b1=_ghRl5tziQIuhjTbZ78t7OIcoYGdDmcjw1MvkLh3ln8"
+[2026-08-01 00:33:39] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER: --b1=_ghRl5tziQIuhjTbZ78t7OIcoYGdDmcjw1MvkLh3ln8
+[2026-08-01 00:33:39] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER: Hello devam parekh,
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER: Your One-Time Password (OTP) for login is: 231969
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER: This OTP will expire in 5 minutes.
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER: If you did not request this login, simply ignore this email.
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER: Regards,
+[2026-08-01 00:33:39] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER: --b1=_ghRl5tziQIuhjTbZ78t7OIcoYGdDmcjw1MvkLh3ln8
+[2026-08-01 00:33:39] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:         <div style="font-family:Arial,sans-serif;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     max-width:600px;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     margin:auto;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     border:1px solid #eee;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     border-radius:12px;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     overflow:hidden;">
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:             <div style="background:#8B4513;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                         color:#fff;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                         padding:20px;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                         text-align:center;">
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 <h2 style="margin:0;">
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     Shreeji Decoration
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 </h2>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:             </div>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:             <div style="padding:30px;">
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 <h3>Hello devam parekh,</h3>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 <p>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     Your One-Time Password (OTP) for login is:
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 </p>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 <div style="text-align:center;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                             margin:30px 0;">
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     <span style="
+[2026-08-01 00:33:39] CLIENT -> SERVER:                         font-size:36px;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                         letter-spacing:10px;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                         background:#FFF3E0;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                         padding:15px 30px;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                         border-radius:10px;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                         color:#8B4513;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                         font-weight:bold;
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     ">
+[2026-08-01 00:33:39] CLIENT -> SERVER:                         231969
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     </span>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 </div>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 <p>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     This OTP will expire in
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     <b>5 minutes</b>.
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 </p>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 <p>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     If you did not request this login,
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     simply ignore this email.
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 </p>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 <br>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 <p>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     Regards,<br>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                     <b>Shreeji Decoration</b>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:                 </p>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:             </div>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:         </div>
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER: --b1=_ghRl5tziQIuhjTbZ78t7OIcoYGdDmcjw1MvkLh3ln8--
+[2026-08-01 00:33:39] CLIENT -> SERVER:
+[2026-08-01 00:33:39] CLIENT -> SERVER: .
+[2026-08-01 00:33:40] SERVER -> CLIENT: 250 2.0.0 OK  1785537219 5a478bee46e88-3153dd9c93dsm10120985eec.8 - gsmtp
+[2026-08-01 00:33:40] CLIENT -> SERVER: QUIT
+[2026-08-01 00:33:40] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-3153dd9c93dsm10120985eec.8 - gsmtp
+[2026-08-01 00:34:30] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-3153ddda5d9sm12563943eec.13 - gsmtp
+[2026-08-01 00:34:30] CLIENT -> SERVER: EHLO localhost
+[2026-08-01 00:34:30] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-01 00:34:30] CLIENT -> SERVER: STARTTLS
+[2026-08-01 00:34:30] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-01 00:34:31] CLIENT -> SERVER: EHLO localhost
+[2026-08-01 00:34:31] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-01 00:34:31] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-01 00:34:32] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-01 00:34:32] CLIENT -> SERVER: [credentials hidden]
+[2026-08-01 00:34:32] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-01 00:34:32] CLIENT -> SERVER: [credentials hidden]
+[2026-08-01 00:34:32] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-01 00:34:32] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-01 00:34:33] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-3153ddda5d9sm12563943eec.13 - gsmtp
+[2026-08-01 00:34:33] CLIENT -> SERVER: RCPT TO:<devamparekh120@gmail.com>
+[2026-08-01 00:34:33] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-3153ddda5d9sm12563943eec.13 - gsmtp
+[2026-08-01 00:34:33] CLIENT -> SERVER: DATA
+[2026-08-01 00:34:34] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-3153ddda5d9sm12563943eec.13 - gsmtp
+[2026-08-01 00:34:34] CLIENT -> SERVER: Date: Sat, 1 Aug 2026 00:34:29 +0200
+[2026-08-01 00:34:34] CLIENT -> SERVER: To: devamparekh120@gmail.com
+[2026-08-01 00:34:34] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-01 00:34:34] CLIENT -> SERVER: Subject: Order Confirmation - 94799131
+[2026-08-01 00:34:34] CLIENT -> SERVER: Message-ID: <tNhVyWERvbsKiH8yfcN9rcV5GlbY015OIF1nhuaaY@localhost>
+[2026-08-01 00:34:34] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-01 00:34:34] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-01 00:34:34] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[2026-08-01 00:34:34] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <h1 style='color:#A67C52'>
+[2026-08-01 00:34:34] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-01 00:34:34] CLIENT -> SERVER: </h1>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <hr>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <p>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: Hello
+[2026-08-01 00:34:34] CLIENT -> SERVER: <b>devam parekh</b>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: </p>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <p>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: Thank you for your order.
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: </p>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <table
+[2026-08-01 00:34:34] CLIENT -> SERVER: border='1'
+[2026-08-01 00:34:34] CLIENT -> SERVER: cellpadding='10'
+[2026-08-01 00:34:34] CLIENT -> SERVER: width='100%'>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <td>
+[2026-08-01 00:34:34] CLIENT -> SERVER: Order ID
+[2026-08-01 00:34:34] CLIENT -> SERVER: </td>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <td>
+[2026-08-01 00:34:34] CLIENT -> SERVER: 94799131
+[2026-08-01 00:34:34] CLIENT -> SERVER: </td>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <td>
+[2026-08-01 00:34:34] CLIENT -> SERVER: Phone
+[2026-08-01 00:34:34] CLIENT -> SERVER: </td>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <td>
+[2026-08-01 00:34:34] CLIENT -> SERVER: 07405670316
+[2026-08-01 00:34:34] CLIENT -> SERVER: </td>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <td>
+[2026-08-01 00:34:34] CLIENT -> SERVER: Payment
+[2026-08-01 00:34:34] CLIENT -> SERVER: </td>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <td>
+[2026-08-01 00:34:34] CLIENT -> SERVER: Cash On Delivery
+[2026-08-01 00:34:34] CLIENT -> SERVER: </td>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <td>
+[2026-08-01 00:34:34] CLIENT -> SERVER: Total
+[2026-08-01 00:34:34] CLIENT -> SERVER: </td>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <td>
+[2026-08-01 00:34:34] CLIENT -> SERVER: ₹135.25
+[2026-08-01 00:34:34] CLIENT -> SERVER: </td>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: </table>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <br>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: <p>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: Your invoice can be viewed from My Orders.
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: </p>
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER:
+[2026-08-01 00:34:34] CLIENT -> SERVER: .
+[2026-08-01 00:34:35] SERVER -> CLIENT: 250 2.0.0 OK  1785537274 5a478bee46e88-3153ddda5d9sm12563943eec.13 - gsmtp
+[2026-08-01 00:34:35] CLIENT -> SERVER: QUIT
+[2026-08-01 00:34:35] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-3153ddda5d9sm12563943eec.13 - gsmtp
+[2026-08-01 00:34:36] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-3153dd9c93dsm10126238eec.8 - gsmtp
+[2026-08-01 00:34:36] CLIENT -> SERVER: EHLO localhost
+[2026-08-01 00:34:36] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-01 00:34:36] CLIENT -> SERVER: STARTTLS
+[2026-08-01 00:34:36] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-01 00:34:37] CLIENT -> SERVER: EHLO localhost
+[2026-08-01 00:34:37] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-01 00:34:37] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-01 00:34:37] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-01 00:34:37] CLIENT -> SERVER: [credentials hidden]
+[2026-08-01 00:34:37] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-01 00:34:37] CLIENT -> SERVER: [credentials hidden]
+[2026-08-01 00:34:38] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-01 00:34:38] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-01 00:34:38] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-3153dd9c93dsm10126238eec.8 - gsmtp
+[2026-08-01 00:34:38] CLIENT -> SERVER: RCPT TO:<devamparekh1200@gmail.com>
+[2026-08-01 00:34:39] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-3153dd9c93dsm10126238eec.8 - gsmtp
+[2026-08-01 00:34:39] CLIENT -> SERVER: DATA
+[2026-08-01 00:34:39] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-3153dd9c93dsm10126238eec.8 - gsmtp
+[2026-08-01 00:34:39] CLIENT -> SERVER: Date: Sat, 1 Aug 2026 00:34:35 +0200
+[2026-08-01 00:34:39] CLIENT -> SERVER: To: devamparekh1200@gmail.com
+[2026-08-01 00:34:39] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-01 00:34:39] CLIENT -> SERVER: Subject: New Order Received - #94799131
+[2026-08-01 00:34:39] CLIENT -> SERVER: Message-ID: <TujErorqVuXI2YLylZQIHrfUbgHbYiuLFFPHAUbOg@localhost>
+[2026-08-01 00:34:39] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-01 00:34:39] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-01 00:34:39] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[2026-08-01 00:34:39] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <h2 style='color:#A67C52'>
+[2026-08-01 00:34:39] CLIENT -> SERVER: New Order Received
+[2026-08-01 00:34:39] CLIENT -> SERVER: </h2>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <hr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <table border='1' cellpadding='10' cellspacing='0' width='100%'>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td><b>Order ID</b></td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td>94799131</td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td><b>Customer Name</b></td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td>devam parekh</td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td><b>Phone</b></td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td>07405670316</td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td><b>Email</b></td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td>devamparekh120@gmail.com</td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td><b>Payment Method</b></td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td>Cash On Delivery</td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td><b>Total Amount</b></td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td>₹135.25</td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td><b>Address</b></td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: <td>rsdtuyr</td>
+[2026-08-01 00:34:39] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: </table>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <br>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <h3>Products Ordered</h3>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <table border='1' cellpadding='10' cellspacing='0' width='100%'>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:     <th>Product</th>
+[2026-08-01 00:34:39] CLIENT -> SERVER:     <th>Qty</th>
+[2026-08-01 00:34:39] CLIENT -> SERVER:     <th>Price</th>
+[2026-08-01 00:34:39] CLIENT -> SERVER: </tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER:     <tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:         <td>Bell</td>
+[2026-08-01 00:34:39] CLIENT -> SERVER:         <td>1</td>
+[2026-08-01 00:34:39] CLIENT -> SERVER:         <td>₹15.00</td>
+[2026-08-01 00:34:39] CLIENT -> SERVER:     </tr>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: </table>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <br>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: <p>
+[2026-08-01 00:34:39] CLIENT -> SERVER: A new order has been placed on the website.
+[2026-08-01 00:34:39] CLIENT -> SERVER: </p>
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER:
+[2026-08-01 00:34:39] CLIENT -> SERVER: .
+[2026-08-01 00:34:41] SERVER -> CLIENT: 250 2.0.0 OK  1785537280 5a478bee46e88-3153dd9c93dsm10126238eec.8 - gsmtp
+[2026-08-01 00:34:41] CLIENT -> SERVER: QUIT
+[2026-08-01 00:34:41] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-3153dd9c93dsm10126238eec.8 - gsmtp
+[2026-08-02 10:38:11] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-3153e045022sm24153362eec.18 - gsmtp
+[2026-08-02 10:38:11] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 10:38:12] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 10:38:12] CLIENT -> SERVER: STARTTLS
+[2026-08-02 10:38:12] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-02 10:38:14] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 10:38:14] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 10:38:14] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-02 10:38:14] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-02 10:38:14] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 10:38:14] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-02 10:38:14] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 10:38:15] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-02 10:38:15] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-02 10:38:15] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-3153e045022sm24153362eec.18 - gsmtp
+[2026-08-02 10:38:15] CLIENT -> SERVER: RCPT TO:<devamparekh120@gmail.com>
+[2026-08-02 10:38:15] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-3153e045022sm24153362eec.18 - gsmtp
+[2026-08-02 10:38:15] CLIENT -> SERVER: DATA
+[2026-08-02 10:38:16] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-3153e045022sm24153362eec.18 - gsmtp
+[2026-08-02 10:38:16] CLIENT -> SERVER: Date: Sun, 2 Aug 2026 10:38:11 +0200
+[2026-08-02 10:38:16] CLIENT -> SERVER: To: DEVAM parekh <devamparekh120@gmail.com>
+[2026-08-02 10:38:16] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-02 10:38:16] CLIENT -> SERVER: Subject: Your Login OTP - Shreeji Decoration
+[2026-08-02 10:38:16] CLIENT -> SERVER: Message-ID: <T0CdazY6XltOHnfUftcaUry80n0PKS1ZKhEU9Tr85RQ@localhost>
+[2026-08-02 10:38:16] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-02 10:38:16] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-02 10:38:16] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[2026-08-02 10:38:16] CLIENT -> SERVER:  boundary="b1=_T0CdazY6XltOHnfUftcaUry80n0PKS1ZKhEU9Tr85RQ"
+[2026-08-02 10:38:16] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER: --b1=_T0CdazY6XltOHnfUftcaUry80n0PKS1ZKhEU9Tr85RQ
+[2026-08-02 10:38:16] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER: Hello DEVAM parekh,
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER: Your One-Time Password (OTP) for login is: 896148
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER: This OTP will expire in 5 minutes.
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER: If you did not request this login, simply ignore this email.
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER: Regards,
+[2026-08-02 10:38:16] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER: --b1=_T0CdazY6XltOHnfUftcaUry80n0PKS1ZKhEU9Tr85RQ
+[2026-08-02 10:38:16] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:         <div style="font-family:Arial,sans-serif;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     max-width:600px;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     margin:auto;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     border:1px solid #eee;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     border-radius:12px;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     overflow:hidden;">
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:             <div style="background:#8B4513;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                         color:#fff;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                         padding:20px;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                         text-align:center;">
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 <h2 style="margin:0;">
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     Shreeji Decoration
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 </h2>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:             </div>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:             <div style="padding:30px;">
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 <h3>Hello DEVAM parekh,</h3>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 <p>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     Your One-Time Password (OTP) for login is:
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 </p>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 <div style="text-align:center;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                             margin:30px 0;">
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     <span style="
+[2026-08-02 10:38:16] CLIENT -> SERVER:                         font-size:36px;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                         letter-spacing:10px;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                         background:#FFF3E0;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                         padding:15px 30px;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                         border-radius:10px;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                         color:#8B4513;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                         font-weight:bold;
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     ">
+[2026-08-02 10:38:16] CLIENT -> SERVER:                         896148
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     </span>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 </div>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 <p>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     This OTP will expire in
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     <b>5 minutes</b>.
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 </p>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 <p>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     If you did not request this login,
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     simply ignore this email.
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 </p>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 <br>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 <p>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     Regards,<br>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                     <b>Shreeji Decoration</b>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:                 </p>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:             </div>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:         </div>
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER: --b1=_T0CdazY6XltOHnfUftcaUry80n0PKS1ZKhEU9Tr85RQ--
+[2026-08-02 10:38:16] CLIENT -> SERVER:
+[2026-08-02 10:38:16] CLIENT -> SERVER: .
+[2026-08-02 10:38:17] SERVER -> CLIENT: 250 2.0.0 OK  1785659896 5a478bee46e88-3153e045022sm24153362eec.18 - gsmtp
+[2026-08-02 10:38:17] CLIENT -> SERVER: QUIT
+[2026-08-02 10:38:18] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-3153e045022sm24153362eec.18 - gsmtp
+[2026-08-02 10:55:41] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a92af1059eb24-13fab132cc4sm19904911c88.2 - gsmtp
+[2026-08-02 10:55:41] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 10:55:41] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 10:55:41] CLIENT -> SERVER: STARTTLS
+[2026-08-02 10:55:42] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-02 10:55:42] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 10:55:42] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 10:55:42] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-02 10:55:43] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-02 10:55:43] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 10:55:43] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-02 10:55:43] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 10:55:44] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-02 10:55:44] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-02 10:55:44] SERVER -> CLIENT: 250 2.1.0 OK a92af1059eb24-13fab132cc4sm19904911c88.2 - gsmtp
+[2026-08-02 10:55:44] CLIENT -> SERVER: RCPT TO:<devamparekh120@gmail.com>
+[2026-08-02 10:55:44] SERVER -> CLIENT: 250 2.1.5 OK a92af1059eb24-13fab132cc4sm19904911c88.2 - gsmtp
+[2026-08-02 10:55:44] CLIENT -> SERVER: DATA
+[2026-08-02 10:55:45] SERVER -> CLIENT: 354 Go ahead a92af1059eb24-13fab132cc4sm19904911c88.2 - gsmtp
+[2026-08-02 10:55:45] CLIENT -> SERVER: Date: Sun, 2 Aug 2026 10:55:41 +0200
+[2026-08-02 10:55:45] CLIENT -> SERVER: To: devam parekh <devamparekh120@gmail.com>
+[2026-08-02 10:55:45] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-02 10:55:45] CLIENT -> SERVER: Subject: Your Login OTP - Shreeji Decoration
+[2026-08-02 10:55:45] CLIENT -> SERVER: Message-ID: <3kYZ2rBW6mnS1cpoQ0jRzbQUzo8RYjVm52cXryEOA@localhost>
+[2026-08-02 10:55:45] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-02 10:55:45] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-02 10:55:45] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[2026-08-02 10:55:45] CLIENT -> SERVER:  boundary="b1=_3kYZ2rBW6mnS1cpoQ0jRzbQUzo8RYjVm52cXryEOA"
+[2026-08-02 10:55:45] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER: --b1=_3kYZ2rBW6mnS1cpoQ0jRzbQUzo8RYjVm52cXryEOA
+[2026-08-02 10:55:45] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER: Hello devam parekh,
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER: Your One-Time Password (OTP) for login is: 353296
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER: This OTP will expire in 5 minutes.
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER: If you did not request this login, simply ignore this email.
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER: Regards,
+[2026-08-02 10:55:45] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER: --b1=_3kYZ2rBW6mnS1cpoQ0jRzbQUzo8RYjVm52cXryEOA
+[2026-08-02 10:55:45] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:         <div style="font-family:Arial,sans-serif;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     max-width:600px;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     margin:auto;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     border:1px solid #eee;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     border-radius:12px;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     overflow:hidden;">
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:             <div style="background:#8B4513;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                         color:#fff;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                         padding:20px;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                         text-align:center;">
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 <h2 style="margin:0;">
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     Shreeji Decoration
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 </h2>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:             </div>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:             <div style="padding:30px;">
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 <h3>Hello devam parekh,</h3>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 <p>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     Your One-Time Password (OTP) for login is:
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 </p>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 <div style="text-align:center;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                             margin:30px 0;">
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     <span style="
+[2026-08-02 10:55:45] CLIENT -> SERVER:                         font-size:36px;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                         letter-spacing:10px;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                         background:#FFF3E0;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                         padding:15px 30px;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                         border-radius:10px;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                         color:#8B4513;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                         font-weight:bold;
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     ">
+[2026-08-02 10:55:45] CLIENT -> SERVER:                         353296
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     </span>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 </div>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 <p>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     This OTP will expire in
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     <b>5 minutes</b>.
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 </p>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 <p>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     If you did not request this login,
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     simply ignore this email.
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 </p>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 <br>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 <p>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     Regards,<br>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                     <b>Shreeji Decoration</b>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:                 </p>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:             </div>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:         </div>
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER: --b1=_3kYZ2rBW6mnS1cpoQ0jRzbQUzo8RYjVm52cXryEOA--
+[2026-08-02 10:55:45] CLIENT -> SERVER:
+[2026-08-02 10:55:45] CLIENT -> SERVER: .
+[2026-08-02 10:55:46] SERVER -> CLIENT: 250 2.0.0 OK  1785660945 a92af1059eb24-13fab132cc4sm19904911c88.2 - gsmtp
+[2026-08-02 10:55:46] CLIENT -> SERVER: QUIT
+[2026-08-02 10:55:46] SERVER -> CLIENT: 221 2.0.0 closing connection a92af1059eb24-13fab132cc4sm19904911c88.2 - gsmtp
+[2026-08-02 11:16:42] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-3153e045022sm24470389eec.18 - gsmtp
+[2026-08-02 11:16:42] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 11:16:42] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 11:16:42] CLIENT -> SERVER: STARTTLS
+[2026-08-02 11:16:42] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-02 11:16:43] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 11:16:43] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 11:16:43] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-02 11:16:44] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-02 11:16:44] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 11:16:44] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-02 11:16:44] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 11:16:44] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-02 11:16:44] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-02 11:16:45] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-3153e045022sm24470389eec.18 - gsmtp
+[2026-08-02 11:16:45] CLIENT -> SERVER: RCPT TO:<devamparekh120@gmail.com>
+[2026-08-02 11:16:45] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-3153e045022sm24470389eec.18 - gsmtp
+[2026-08-02 11:16:45] CLIENT -> SERVER: DATA
+[2026-08-02 11:16:45] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-3153e045022sm24470389eec.18 - gsmtp
+[2026-08-02 11:16:45] CLIENT -> SERVER: Date: Sun, 2 Aug 2026 11:16:41 +0200
+[2026-08-02 11:16:45] CLIENT -> SERVER: To: devamparekh120@gmail.com
+[2026-08-02 11:16:45] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-02 11:16:45] CLIENT -> SERVER: Subject: Order Confirmation - 76032932
+[2026-08-02 11:16:45] CLIENT -> SERVER: Message-ID: <Hcy526Av56shvrZbfdJqNcL0Q3X8sUIiGoRYxlqUo@localhost>
+[2026-08-02 11:16:45] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-02 11:16:45] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-02 11:16:45] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[2026-08-02 11:16:45] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <h1 style='color:#A67C52'>
+[2026-08-02 11:16:45] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-02 11:16:45] CLIENT -> SERVER: </h1>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <hr>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <p>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: Hello
+[2026-08-02 11:16:45] CLIENT -> SERVER: <b>devam parekh</b>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: </p>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <p>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: Thank you for your order.
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: </p>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <table
+[2026-08-02 11:16:45] CLIENT -> SERVER: border='1'
+[2026-08-02 11:16:45] CLIENT -> SERVER: cellpadding='10'
+[2026-08-02 11:16:45] CLIENT -> SERVER: width='100%'>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <td>
+[2026-08-02 11:16:45] CLIENT -> SERVER: Order ID
+[2026-08-02 11:16:45] CLIENT -> SERVER: </td>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <td>
+[2026-08-02 11:16:45] CLIENT -> SERVER: 76032932
+[2026-08-02 11:16:45] CLIENT -> SERVER: </td>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <td>
+[2026-08-02 11:16:45] CLIENT -> SERVER: Phone
+[2026-08-02 11:16:45] CLIENT -> SERVER: </td>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <td>
+[2026-08-02 11:16:45] CLIENT -> SERVER: 07405670316
+[2026-08-02 11:16:45] CLIENT -> SERVER: </td>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:45] CLIENT -> SERVER:
+[2026-08-02 11:16:45] CLIENT -> SERVER: <td>
+[2026-08-02 11:16:45] CLIENT -> SERVER: Payment
+[2026-08-02 11:16:45] CLIENT -> SERVER: </td>
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: <td>
+[2026-08-02 11:16:46] CLIENT -> SERVER: Cash On Delivery
+[2026-08-02 11:16:46] CLIENT -> SERVER: </td>
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: <td>
+[2026-08-02 11:16:46] CLIENT -> SERVER: Total
+[2026-08-02 11:16:46] CLIENT -> SERVER: </td>
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: <td>
+[2026-08-02 11:16:46] CLIENT -> SERVER: ₹163.28
+[2026-08-02 11:16:46] CLIENT -> SERVER: </td>
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: </table>
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: <br>
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: <p>
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: Your invoice can be viewed from My Orders.
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: </p>
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER:
+[2026-08-02 11:16:46] CLIENT -> SERVER: .
+[2026-08-02 11:16:47] SERVER -> CLIENT: 250 2.0.0 OK  1785662206 5a478bee46e88-3153e045022sm24470389eec.18 - gsmtp
+[2026-08-02 11:16:47] CLIENT -> SERVER: QUIT
+[2026-08-02 11:16:47] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-3153e045022sm24470389eec.18 - gsmtp
+[2026-08-02 11:16:48] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a92af1059eb24-13fab132cc4sm20056475c88.2 - gsmtp
+[2026-08-02 11:16:48] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 11:16:48] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 11:16:48] CLIENT -> SERVER: STARTTLS
+[2026-08-02 11:16:48] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-02 11:16:49] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 11:16:49] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 11:16:49] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-02 11:16:49] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-02 11:16:49] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 11:16:49] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-02 11:16:49] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 11:16:50] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-02 11:16:50] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-02 11:16:50] SERVER -> CLIENT: 250 2.1.0 OK a92af1059eb24-13fab132cc4sm20056475c88.2 - gsmtp
+[2026-08-02 11:16:50] CLIENT -> SERVER: RCPT TO:<devamparekh1200@gmail.com>
+[2026-08-02 11:16:51] SERVER -> CLIENT: 250 2.1.5 OK a92af1059eb24-13fab132cc4sm20056475c88.2 - gsmtp
+[2026-08-02 11:16:51] CLIENT -> SERVER: DATA
+[2026-08-02 11:16:51] SERVER -> CLIENT: 354 Go ahead a92af1059eb24-13fab132cc4sm20056475c88.2 - gsmtp
+[2026-08-02 11:16:51] CLIENT -> SERVER: Date: Sun, 2 Aug 2026 11:16:47 +0200
+[2026-08-02 11:16:51] CLIENT -> SERVER: To: devamparekh1200@gmail.com
+[2026-08-02 11:16:51] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-02 11:16:51] CLIENT -> SERVER: Subject: New Order Received - #76032932
+[2026-08-02 11:16:51] CLIENT -> SERVER: Message-ID: <OU1Gvn9SuSOPoWPGMTTvAKpUslegVchr1aCrUV3M@localhost>
+[2026-08-02 11:16:51] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-02 11:16:51] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-02 11:16:51] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[2026-08-02 11:16:51] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <h2 style='color:#A67C52'>
+[2026-08-02 11:16:51] CLIENT -> SERVER: New Order Received
+[2026-08-02 11:16:51] CLIENT -> SERVER: </h2>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <hr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <table border='1' cellpadding='10' cellspacing='0' width='100%'>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td><b>Order ID</b></td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td>76032932</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td><b>Customer Name</b></td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td>devam parekh</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td><b>Phone</b></td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td>07405670316</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td><b>Email</b></td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td>devamparekh120@gmail.com</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td><b>Payment Method</b></td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td>Cash On Delivery</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td><b>Total Amount</b></td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td>₹163.28</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td><b>Address</b></td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: <td>rsdtuyr</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: </table>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <br>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <h3>Products Ordered</h3>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <table border='1' cellpadding='10' cellspacing='0' width='100%'>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:     <th>Product</th>
+[2026-08-02 11:16:51] CLIENT -> SERVER:     <th>Qty</th>
+[2026-08-02 11:16:51] CLIENT -> SERVER:     <th>Price</th>
+[2026-08-02 11:16:51] CLIENT -> SERVER: </tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER:     <tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:         <td>Bell</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER:         <td>1</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER:         <td>₹15.00</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER:     </tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:     <tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:         <td>hat</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER:         <td>1</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER:         <td>₹23.75</td>
+[2026-08-02 11:16:51] CLIENT -> SERVER:     </tr>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: </table>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <br>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: <p>
+[2026-08-02 11:16:51] CLIENT -> SERVER: A new order has been placed on the website.
+[2026-08-02 11:16:51] CLIENT -> SERVER: </p>
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER:
+[2026-08-02 11:16:51] CLIENT -> SERVER: .
+[2026-08-02 11:16:52] SERVER -> CLIENT: 250 2.0.0 OK  1785662211 a92af1059eb24-13fab132cc4sm20056475c88.2 - gsmtp
+[2026-08-02 11:16:52] CLIENT -> SERVER: QUIT
+[2026-08-02 11:16:53] SERVER -> CLIENT: 221 2.0.0 closing connection a92af1059eb24-13fab132cc4sm20056475c88.2 - gsmtp
+[2026-08-02 12:52:38] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-3153e06f0f9sm25935292eec.23 - gsmtp
+[2026-08-02 12:52:38] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 12:52:39] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 12:52:39] CLIENT -> SERVER: STARTTLS
+[2026-08-02 12:52:40] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-02 12:52:44] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 12:52:45] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 12:52:45] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-02 12:52:45] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-02 12:52:45] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 12:52:45] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-02 12:52:45] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 12:52:46] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-02 12:52:46] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-02 12:52:46] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-3153e06f0f9sm25935292eec.23 - gsmtp
+[2026-08-02 12:52:46] CLIENT -> SERVER: RCPT TO:<devamparekh120@gmail.com>
+[2026-08-02 12:52:46] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-3153e06f0f9sm25935292eec.23 - gsmtp
+[2026-08-02 12:52:46] CLIENT -> SERVER: DATA
+[2026-08-02 12:52:47] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-3153e06f0f9sm25935292eec.23 - gsmtp
+[2026-08-02 12:52:47] CLIENT -> SERVER: Date: Sun, 2 Aug 2026 12:52:37 +0200
+[2026-08-02 12:52:47] CLIENT -> SERVER: To: devam parekh <devamparekh120@gmail.com>
+[2026-08-02 12:52:47] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-02 12:52:47] CLIENT -> SERVER: Subject: Your Login OTP - Shreeji Decoration
+[2026-08-02 12:52:47] CLIENT -> SERVER: Message-ID: <rB6IYD4B0mFzyxVyzSETmBOmjxBi96OVimVfhzau4tg@localhost>
+[2026-08-02 12:52:47] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-02 12:52:47] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-02 12:52:47] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[2026-08-02 12:52:47] CLIENT -> SERVER:  boundary="b1=_rB6IYD4B0mFzyxVyzSETmBOmjxBi96OVimVfhzau4tg"
+[2026-08-02 12:52:47] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER: --b1=_rB6IYD4B0mFzyxVyzSETmBOmjxBi96OVimVfhzau4tg
+[2026-08-02 12:52:47] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER: Hello devam parekh,
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER: Your One-Time Password (OTP) for login is: 993383
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER: This OTP will expire in 5 minutes.
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER: If you did not request this login, simply ignore this email.
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER: Regards,
+[2026-08-02 12:52:47] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER: --b1=_rB6IYD4B0mFzyxVyzSETmBOmjxBi96OVimVfhzau4tg
+[2026-08-02 12:52:47] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:         <div style="font-family:Arial,sans-serif;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     max-width:600px;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     margin:auto;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     border:1px solid #eee;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     border-radius:12px;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     overflow:hidden;">
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:             <div style="background:#8B4513;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                         color:#fff;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                         padding:20px;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                         text-align:center;">
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 <h2 style="margin:0;">
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     Shreeji Decoration
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 </h2>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:             </div>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:             <div style="padding:30px;">
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 <h3>Hello devam parekh,</h3>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 <p>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     Your One-Time Password (OTP) for login is:
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 </p>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 <div style="text-align:center;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                             margin:30px 0;">
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     <span style="
+[2026-08-02 12:52:47] CLIENT -> SERVER:                         font-size:36px;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                         letter-spacing:10px;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                         background:#FFF3E0;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                         padding:15px 30px;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                         border-radius:10px;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                         color:#8B4513;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                         font-weight:bold;
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     ">
+[2026-08-02 12:52:47] CLIENT -> SERVER:                         993383
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     </span>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 </div>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 <p>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     This OTP will expire in
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     <b>5 minutes</b>.
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 </p>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 <p>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     If you did not request this login,
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     simply ignore this email.
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 </p>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 <br>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 <p>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     Regards,<br>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                     <b>Shreeji Decoration</b>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:                 </p>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:             </div>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:         </div>
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER: --b1=_rB6IYD4B0mFzyxVyzSETmBOmjxBi96OVimVfhzau4tg--
+[2026-08-02 12:52:47] CLIENT -> SERVER:
+[2026-08-02 12:52:47] CLIENT -> SERVER: .
+[2026-08-02 12:52:48] SERVER -> CLIENT: 250 2.0.0 OK  1785667968 5a478bee46e88-3153e06f0f9sm25935292eec.23 - gsmtp
+[2026-08-02 12:52:48] CLIENT -> SERVER: QUIT
+[2026-08-02 12:52:48] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-3153e06f0f9sm25935292eec.23 - gsmtp
+[2026-08-02 12:54:21] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-3153db2f911sm29272809eec.0 - gsmtp
+[2026-08-02 12:54:21] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 12:54:21] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 12:54:21] CLIENT -> SERVER: STARTTLS
+[2026-08-02 12:54:21] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-02 12:54:22] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 12:54:22] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 12:54:22] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-02 12:54:23] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-02 12:54:23] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 12:54:23] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-02 12:54:23] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 12:54:23] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-02 12:54:23] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-02 12:54:24] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-3153db2f911sm29272809eec.0 - gsmtp
+[2026-08-02 12:54:24] CLIENT -> SERVER: RCPT TO:<devamparekh120@gmail.com>
+[2026-08-02 12:54:24] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-3153db2f911sm29272809eec.0 - gsmtp
+[2026-08-02 12:54:24] CLIENT -> SERVER: DATA
+[2026-08-02 12:54:24] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-3153db2f911sm29272809eec.0 - gsmtp
+[2026-08-02 12:54:24] CLIENT -> SERVER: Date: Sun, 2 Aug 2026 12:54:20 +0200
+[2026-08-02 12:54:24] CLIENT -> SERVER: To: devamparekh120@gmail.com
+[2026-08-02 12:54:24] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-02 12:54:24] CLIENT -> SERVER: Subject: Order Confirmation - 23367055
+[2026-08-02 12:54:24] CLIENT -> SERVER: Message-ID: <Z5FdoY0Mi4g3sRReLmcfwUk2JD0VLGC2OhVWfGNYU@localhost>
+[2026-08-02 12:54:24] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-02 12:54:24] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-02 12:54:24] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[2026-08-02 12:54:24] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <h1 style='color:#A67C52'>
+[2026-08-02 12:54:24] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-02 12:54:24] CLIENT -> SERVER: </h1>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <hr>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <p>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: Hello
+[2026-08-02 12:54:24] CLIENT -> SERVER: <b>devam parekh</b>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: </p>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <p>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: Thank you for your order.
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: </p>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <table
+[2026-08-02 12:54:24] CLIENT -> SERVER: border='1'
+[2026-08-02 12:54:24] CLIENT -> SERVER: cellpadding='10'
+[2026-08-02 12:54:24] CLIENT -> SERVER: width='100%'>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <td>
+[2026-08-02 12:54:24] CLIENT -> SERVER: Order ID
+[2026-08-02 12:54:24] CLIENT -> SERVER: </td>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <td>
+[2026-08-02 12:54:24] CLIENT -> SERVER: 23367055
+[2026-08-02 12:54:24] CLIENT -> SERVER: </td>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <td>
+[2026-08-02 12:54:24] CLIENT -> SERVER: Phone
+[2026-08-02 12:54:24] CLIENT -> SERVER: </td>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <td>
+[2026-08-02 12:54:24] CLIENT -> SERVER: 07405670316
+[2026-08-02 12:54:24] CLIENT -> SERVER: </td>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <td>
+[2026-08-02 12:54:24] CLIENT -> SERVER: Payment
+[2026-08-02 12:54:24] CLIENT -> SERVER: </td>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <td>
+[2026-08-02 12:54:24] CLIENT -> SERVER: Cash On Delivery
+[2026-08-02 12:54:24] CLIENT -> SERVER: </td>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <td>
+[2026-08-02 12:54:24] CLIENT -> SERVER: Total
+[2026-08-02 12:54:24] CLIENT -> SERVER: </td>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <td>
+[2026-08-02 12:54:24] CLIENT -> SERVER: ₹280.69
+[2026-08-02 12:54:24] CLIENT -> SERVER: </td>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: </table>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <br>
+[2026-08-02 12:54:24] CLIENT -> SERVER:
+[2026-08-02 12:54:24] CLIENT -> SERVER: <p>
+[2026-08-02 12:54:25] CLIENT -> SERVER:
+[2026-08-02 12:54:25] CLIENT -> SERVER: Your invoice can be viewed from My Orders.
+[2026-08-02 12:54:25] CLIENT -> SERVER:
+[2026-08-02 12:54:25] CLIENT -> SERVER: </p>
+[2026-08-02 12:54:25] CLIENT -> SERVER:
+[2026-08-02 12:54:25] CLIENT -> SERVER:
+[2026-08-02 12:54:25] CLIENT -> SERVER: .
+[2026-08-02 12:54:26] SERVER -> CLIENT: 250 2.0.0 OK  1785668065 5a478bee46e88-3153db2f911sm29272809eec.0 - gsmtp
+[2026-08-02 12:54:26] CLIENT -> SERVER: QUIT
+[2026-08-02 12:54:26] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-3153db2f911sm29272809eec.0 - gsmtp
+[2026-08-02 12:54:26] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-3153e1886e7sm29510697eec.26 - gsmtp
+[2026-08-02 12:54:26] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 12:54:27] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 12:54:27] CLIENT -> SERVER: STARTTLS
+[2026-08-02 12:54:27] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-02 12:54:28] CLIENT -> SERVER: EHLO localhost
+[2026-08-02 12:54:28] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.0]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-02 12:54:28] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-02 12:54:28] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-02 12:54:28] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 12:54:29] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-02 12:54:29] CLIENT -> SERVER: [credentials hidden]
+[2026-08-02 12:54:29] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-02 12:54:29] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-02 12:54:29] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-3153e1886e7sm29510697eec.26 - gsmtp
+[2026-08-02 12:54:29] CLIENT -> SERVER: RCPT TO:<devamparekh1200@gmail.com>
+[2026-08-02 12:54:30] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-3153e1886e7sm29510697eec.26 - gsmtp
+[2026-08-02 12:54:30] CLIENT -> SERVER: DATA
+[2026-08-02 12:54:30] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-3153e1886e7sm29510697eec.26 - gsmtp
+[2026-08-02 12:54:30] CLIENT -> SERVER: Date: Sun, 2 Aug 2026 12:54:26 +0200
+[2026-08-02 12:54:30] CLIENT -> SERVER: To: devamparekh1200@gmail.com
+[2026-08-02 12:54:30] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-02 12:54:30] CLIENT -> SERVER: Subject: New Order Received - #23367055
+[2026-08-02 12:54:30] CLIENT -> SERVER: Message-ID: <QknSAAH5c6IvAZjtuYgMAJNpacF4olZxFaqFyTm6ZiM@localhost>
+[2026-08-02 12:54:30] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-02 12:54:30] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-02 12:54:30] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[2026-08-02 12:54:30] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <h2 style='color:#A67C52'>
+[2026-08-02 12:54:30] CLIENT -> SERVER: New Order Received
+[2026-08-02 12:54:30] CLIENT -> SERVER: </h2>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <hr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <table border='1' cellpadding='10' cellspacing='0' width='100%'>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td><b>Order ID</b></td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td>23367055</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td><b>Customer Name</b></td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td>devam parekh</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td><b>Phone</b></td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td>07405670316</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td><b>Email</b></td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td>devamparekh120@gmail.com</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td><b>Payment Method</b></td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td>Cash On Delivery</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td><b>Total Amount</b></td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td>₹280.69</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td><b>Address</b></td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: <td>rsdtuyr</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: </table>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <br>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <h3>Products Ordered</h3>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <table border='1' cellpadding='10' cellspacing='0' width='100%'>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:     <th>Product</th>
+[2026-08-02 12:54:30] CLIENT -> SERVER:     <th>Qty</th>
+[2026-08-02 12:54:30] CLIENT -> SERVER:     <th>Price</th>
+[2026-08-02 12:54:30] CLIENT -> SERVER: </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER:     <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>Bell</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>1</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>₹15.00</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:     </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:     <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>hat</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>1</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>₹23.75</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:     </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:     <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>ballom</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>1</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>₹50.00</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:     </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:     <tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>Ballons</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>1</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:         <td>₹49.50</td>
+[2026-08-02 12:54:30] CLIENT -> SERVER:     </tr>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: </table>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <br>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: <p>
+[2026-08-02 12:54:30] CLIENT -> SERVER: A new order has been placed on the website.
+[2026-08-02 12:54:30] CLIENT -> SERVER: </p>
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER:
+[2026-08-02 12:54:30] CLIENT -> SERVER: .
+[2026-08-02 12:54:32] SERVER -> CLIENT: 250 2.0.0 OK  1785668071 5a478bee46e88-3153e1886e7sm29510697eec.26 - gsmtp
+[2026-08-02 12:54:32] CLIENT -> SERVER: QUIT
+[2026-08-02 12:54:32] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-3153e1886e7sm29510697eec.26 - gsmtp
+[2026-08-14 09:48:48] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-320ead105a9sm1274446eec.31 - gsmtp
+[2026-08-14 09:48:48] CLIENT -> SERVER: EHLO localhost
+[2026-08-14 09:48:48] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [122.15.186.200]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-14 09:48:48] CLIENT -> SERVER: STARTTLS
+[2026-08-14 09:48:48] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-14 09:48:49] CLIENT -> SERVER: EHLO localhost
+[2026-08-14 09:48:49] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [122.15.186.200]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-14 09:48:49] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-14 09:48:49] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-14 09:48:49] CLIENT -> SERVER: [credentials hidden]
+[2026-08-14 09:48:50] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-14 09:48:50] CLIENT -> SERVER: [credentials hidden]
+[2026-08-14 09:48:50] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-14 09:48:50] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-14 09:48:50] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-320ead105a9sm1274446eec.31 - gsmtp
+[2026-08-14 09:48:50] CLIENT -> SERVER: RCPT TO:<devamparekh1200@gmail.com>
+[2026-08-14 09:48:51] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-320ead105a9sm1274446eec.31 - gsmtp
+[2026-08-14 09:48:51] CLIENT -> SERVER: DATA
+[2026-08-14 09:48:51] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-320ead105a9sm1274446eec.31 - gsmtp
+[2026-08-14 09:48:51] CLIENT -> SERVER: Date: Fri, 14 Aug 2026 09:48:47 +0200
+[2026-08-14 09:48:51] CLIENT -> SERVER: To: devam parekh <devamparekh1200@gmail.com>
+[2026-08-14 09:48:51] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-14 09:48:51] CLIENT -> SERVER: Subject: Your Login OTP - Shreeji Decoration
+[2026-08-14 09:48:51] CLIENT -> SERVER: Message-ID: <oK9YBmAGFKNZfSs9Zy7eYnBkJzWyapWphlrmQN54UEI@localhost>
+[2026-08-14 09:48:51] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-14 09:48:51] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-14 09:48:51] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[2026-08-14 09:48:51] CLIENT -> SERVER:  boundary="b1=_oK9YBmAGFKNZfSs9Zy7eYnBkJzWyapWphlrmQN54UEI"
+[2026-08-14 09:48:51] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER: --b1=_oK9YBmAGFKNZfSs9Zy7eYnBkJzWyapWphlrmQN54UEI
+[2026-08-14 09:48:51] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER: Hello devam parekh,
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER: Your One-Time Password (OTP) for login is: 520085
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER: This OTP will expire in 5 minutes.
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER: If you did not request this login, simply ignore this email.
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER: Regards,
+[2026-08-14 09:48:51] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER: --b1=_oK9YBmAGFKNZfSs9Zy7eYnBkJzWyapWphlrmQN54UEI
+[2026-08-14 09:48:51] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:         <div style="font-family:Arial,sans-serif;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     max-width:600px;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     margin:auto;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     border:1px solid #eee;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     border-radius:12px;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     overflow:hidden;">
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:             <div style="background:#8B4513;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                         color:#fff;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                         padding:20px;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                         text-align:center;">
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 <h2 style="margin:0;">
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     Shreeji Decoration
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 </h2>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:             </div>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:             <div style="padding:30px;">
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 <h3>Hello devam parekh,</h3>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 <p>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     Your One-Time Password (OTP) for login is:
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 </p>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 <div style="text-align:center;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                             margin:30px 0;">
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     <span style="
+[2026-08-14 09:48:51] CLIENT -> SERVER:                         font-size:36px;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                         letter-spacing:10px;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                         background:#FFF3E0;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                         padding:15px 30px;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                         border-radius:10px;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                         color:#8B4513;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                         font-weight:bold;
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     ">
+[2026-08-14 09:48:51] CLIENT -> SERVER:                         520085
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     </span>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 </div>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 <p>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     This OTP will expire in
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     <b>5 minutes</b>.
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 </p>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 <p>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     If you did not request this login,
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     simply ignore this email.
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 </p>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 <br>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 <p>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     Regards,<br>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                     <b>Shreeji Decoration</b>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:                 </p>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:             </div>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:         </div>
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER: --b1=_oK9YBmAGFKNZfSs9Zy7eYnBkJzWyapWphlrmQN54UEI--
+[2026-08-14 09:48:51] CLIENT -> SERVER:
+[2026-08-14 09:48:51] CLIENT -> SERVER: .
+[2026-08-14 09:48:52] SERVER -> CLIENT: 250 2.0.0 OK  1786693732 5a478bee46e88-320ead105a9sm1274446eec.31 - gsmtp
+[2026-08-14 09:48:52] CLIENT -> SERVER: QUIT
+[2026-08-14 09:48:53] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-320ead105a9sm1274446eec.31 - gsmtp
+[2026-08-14 09:49:41] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a92af1059eb24-141387ed5b1sm9800797c88.8 - gsmtp
+[2026-08-14 09:49:41] CLIENT -> SERVER: EHLO localhost
+[2026-08-14 09:49:42] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [122.15.186.200]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-14 09:49:42] CLIENT -> SERVER: STARTTLS
+[2026-08-14 09:49:42] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-14 09:49:42] CLIENT -> SERVER: EHLO localhost
+[2026-08-14 09:49:43] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [122.15.186.200]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-14 09:49:43] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-14 09:49:43] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-14 09:49:43] CLIENT -> SERVER: [credentials hidden]
+[2026-08-14 09:49:43] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-14 09:49:43] CLIENT -> SERVER: [credentials hidden]
+[2026-08-14 09:49:44] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-14 09:49:44] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-14 09:49:44] SERVER -> CLIENT: 250 2.1.0 OK a92af1059eb24-141387ed5b1sm9800797c88.8 - gsmtp
+[2026-08-14 09:49:44] CLIENT -> SERVER: RCPT TO:<devamparekh1200@gmail.com>
+[2026-08-14 09:49:44] SERVER -> CLIENT: 250 2.1.5 OK a92af1059eb24-141387ed5b1sm9800797c88.8 - gsmtp
+[2026-08-14 09:49:44] CLIENT -> SERVER: DATA
+[2026-08-14 09:49:45] SERVER -> CLIENT: 354 Go ahead a92af1059eb24-141387ed5b1sm9800797c88.8 - gsmtp
+[2026-08-14 09:49:45] CLIENT -> SERVER: Date: Fri, 14 Aug 2026 09:49:41 +0200
+[2026-08-14 09:49:45] CLIENT -> SERVER: To: devamparekh1200@gmail.com
+[2026-08-14 09:49:45] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-14 09:49:45] CLIENT -> SERVER: Subject: Order Confirmation - 80069501
+[2026-08-14 09:49:45] CLIENT -> SERVER: Message-ID: <1uG4ty3Vwi1HHWes5Wmx0qyMQhHsuIm167cGcoIWg@localhost>
+[2026-08-14 09:49:45] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-14 09:49:45] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-14 09:49:45] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[2026-08-14 09:49:45] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <h1 style='color:#A67C52'>
+[2026-08-14 09:49:45] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-14 09:49:45] CLIENT -> SERVER: </h1>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <hr>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <p>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: Hello
+[2026-08-14 09:49:45] CLIENT -> SERVER: <b>devam parekh</b>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: </p>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <p>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: Thank you for your order.
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: </p>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <table
+[2026-08-14 09:49:45] CLIENT -> SERVER: border='1'
+[2026-08-14 09:49:45] CLIENT -> SERVER: cellpadding='10'
+[2026-08-14 09:49:45] CLIENT -> SERVER: width='100%'>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <td>
+[2026-08-14 09:49:45] CLIENT -> SERVER: Order ID
+[2026-08-14 09:49:45] CLIENT -> SERVER: </td>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <td>
+[2026-08-14 09:49:45] CLIENT -> SERVER: 80069501
+[2026-08-14 09:49:45] CLIENT -> SERVER: </td>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <td>
+[2026-08-14 09:49:45] CLIENT -> SERVER: Phone
+[2026-08-14 09:49:45] CLIENT -> SERVER: </td>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <td>
+[2026-08-14 09:49:45] CLIENT -> SERVER: 8160449412
+[2026-08-14 09:49:45] CLIENT -> SERVER: </td>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <td>
+[2026-08-14 09:49:45] CLIENT -> SERVER: Payment
+[2026-08-14 09:49:45] CLIENT -> SERVER: </td>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <td>
+[2026-08-14 09:49:45] CLIENT -> SERVER: Cash On Delivery
+[2026-08-14 09:49:45] CLIENT -> SERVER: </td>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <td>
+[2026-08-14 09:49:45] CLIENT -> SERVER: Total
+[2026-08-14 09:49:45] CLIENT -> SERVER: </td>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <td>
+[2026-08-14 09:49:45] CLIENT -> SERVER: ₹280.69
+[2026-08-14 09:49:45] CLIENT -> SERVER: </td>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: </table>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <br>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: <p>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: Your invoice can be viewed from My Orders.
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: </p>
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER:
+[2026-08-14 09:49:45] CLIENT -> SERVER: .
+[2026-08-14 09:49:46] SERVER -> CLIENT: 250 2.0.0 OK  1786693785 a92af1059eb24-141387ed5b1sm9800797c88.8 - gsmtp
+[2026-08-14 09:49:46] CLIENT -> SERVER: QUIT
+[2026-08-14 09:49:46] SERVER -> CLIENT: 221 2.0.0 closing connection a92af1059eb24-141387ed5b1sm9800797c88.8 - gsmtp
+[2026-08-14 09:49:46] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-320d5bd9679sm1578635eec.3 - gsmtp
+[2026-08-14 09:49:46] CLIENT -> SERVER: EHLO localhost
+[2026-08-14 09:49:47] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [122.15.186.200]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-14 09:49:47] CLIENT -> SERVER: STARTTLS
+[2026-08-14 09:49:47] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-14 09:49:48] CLIENT -> SERVER: EHLO localhost
+[2026-08-14 09:49:48] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [122.15.186.200]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-14 09:49:48] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-14 09:49:48] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-14 09:49:48] CLIENT -> SERVER: [credentials hidden]
+[2026-08-14 09:49:49] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-14 09:49:49] CLIENT -> SERVER: [credentials hidden]
+[2026-08-14 09:49:49] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-14 09:49:49] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-14 09:49:49] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-320d5bd9679sm1578635eec.3 - gsmtp
+[2026-08-14 09:49:49] CLIENT -> SERVER: RCPT TO:<devamparekh1200@gmail.com>
+[2026-08-14 09:49:50] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-320d5bd9679sm1578635eec.3 - gsmtp
+[2026-08-14 09:49:50] CLIENT -> SERVER: DATA
+[2026-08-14 09:49:51] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-320d5bd9679sm1578635eec.3 - gsmtp
+[2026-08-14 09:49:51] CLIENT -> SERVER: Date: Fri, 14 Aug 2026 09:49:46 +0200
+[2026-08-14 09:49:51] CLIENT -> SERVER: To: devamparekh1200@gmail.com
+[2026-08-14 09:49:51] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-14 09:49:51] CLIENT -> SERVER: Subject: New Order Received - #80069501
+[2026-08-14 09:49:51] CLIENT -> SERVER: Message-ID: <u4qV8WYf2crhD6n65YIZvQFtMZbgMuOavaMB31EcUc@localhost>
+[2026-08-14 09:49:51] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-14 09:49:51] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-14 09:49:51] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+[2026-08-14 09:49:51] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <h2 style='color:#A67C52'>
+[2026-08-14 09:49:51] CLIENT -> SERVER: New Order Received
+[2026-08-14 09:49:51] CLIENT -> SERVER: </h2>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <hr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <table border='1' cellpadding='10' cellspacing='0' width='100%'>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td><b>Order ID</b></td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td>80069501</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td><b>Customer Name</b></td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td>devam parekh</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td><b>Phone</b></td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td>8160449412</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td><b>Email</b></td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td>devamparekh1200@gmail.com</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td><b>Payment Method</b></td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td>Cash On Delivery</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td><b>Total Amount</b></td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td>₹280.69</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td><b>Address</b></td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: <td>d</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: </table>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <br>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <h3>Products Ordered</h3>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <table border='1' cellpadding='10' cellspacing='0' width='100%'>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:     <th>Product</th>
+[2026-08-14 09:49:51] CLIENT -> SERVER:     <th>Qty</th>
+[2026-08-14 09:49:51] CLIENT -> SERVER:     <th>Price</th>
+[2026-08-14 09:49:51] CLIENT -> SERVER: </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER:     <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>Bell</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>1</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>₹15.00</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:     </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:     <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>hat</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>1</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>₹23.75</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:     </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:     <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>ballom</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>1</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>₹50.00</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:     </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:     <tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>Ballons</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>1</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:         <td>₹49.50</td>
+[2026-08-14 09:49:51] CLIENT -> SERVER:     </tr>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: </table>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <br>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: <p>
+[2026-08-14 09:49:51] CLIENT -> SERVER: A new order has been placed on the website.
+[2026-08-14 09:49:51] CLIENT -> SERVER: </p>
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER:
+[2026-08-14 09:49:51] CLIENT -> SERVER: .
+[2026-08-14 09:49:52] SERVER -> CLIENT: 250 2.0.0 OK  1786693791 5a478bee46e88-320d5bd9679sm1578635eec.3 - gsmtp
+[2026-08-14 09:49:52] CLIENT -> SERVER: QUIT
+[2026-08-14 09:49:52] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-320d5bd9679sm1578635eec.3 - gsmtp
+[2026-08-20 10:48:24] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a92af1059eb24-1416ae143edsm27321601c88.10 - gsmtp
+[2026-08-20 10:48:24] CLIENT -> SERVER: EHLO localhost
+[2026-08-20 10:48:25] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [122.15.186.200]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-20 10:48:25] CLIENT -> SERVER: STARTTLS
+[2026-08-20 10:48:25] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-20 10:48:26] CLIENT -> SERVER: EHLO localhost
+[2026-08-20 10:48:26] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [122.15.186.200]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-20 10:48:26] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-20 10:48:26] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-20 10:48:26] CLIENT -> SERVER: [credentials hidden]
+[2026-08-20 10:48:27] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-20 10:48:27] CLIENT -> SERVER: [credentials hidden]
+[2026-08-20 10:48:27] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-20 10:48:27] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-20 10:48:27] SERVER -> CLIENT: 250 2.1.0 OK a92af1059eb24-1416ae143edsm27321601c88.10 - gsmtp
+[2026-08-20 10:48:27] CLIENT -> SERVER: RCPT TO:<devamparekh1200@gmail.com>
+[2026-08-20 10:48:28] SERVER -> CLIENT: 250 2.1.5 OK a92af1059eb24-1416ae143edsm27321601c88.10 - gsmtp
+[2026-08-20 10:48:28] CLIENT -> SERVER: DATA
+[2026-08-20 10:48:28] SERVER -> CLIENT: 354 Go ahead a92af1059eb24-1416ae143edsm27321601c88.10 - gsmtp
+[2026-08-20 10:48:28] CLIENT -> SERVER: Date: Thu, 20 Aug 2026 10:48:24 +0200
+[2026-08-20 10:48:28] CLIENT -> SERVER: To: devam parekh <devamparekh1200@gmail.com>
+[2026-08-20 10:48:28] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-20 10:48:28] CLIENT -> SERVER: Subject: Your Login OTP - Shreeji Decoration
+[2026-08-20 10:48:28] CLIENT -> SERVER: Message-ID: <uXDJqOh8ZihtC7uuRKfmtGmoDNKa6yx66214Egz07M@localhost>
+[2026-08-20 10:48:28] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-20 10:48:28] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-20 10:48:28] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[2026-08-20 10:48:28] CLIENT -> SERVER:  boundary="b1=_uXDJqOh8ZihtC7uuRKfmtGmoDNKa6yx66214Egz07M"
+[2026-08-20 10:48:28] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER: --b1=_uXDJqOh8ZihtC7uuRKfmtGmoDNKa6yx66214Egz07M
+[2026-08-20 10:48:28] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER: Hello devam parekh,
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER: Your One-Time Password (OTP) for login is: 363387
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER: This OTP will expire in 5 minutes.
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER: If you did not request this login, simply ignore this email.
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER: Regards,
+[2026-08-20 10:48:28] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER: --b1=_uXDJqOh8ZihtC7uuRKfmtGmoDNKa6yx66214Egz07M
+[2026-08-20 10:48:28] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:         <div style="font-family:Arial,sans-serif;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     max-width:600px;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     margin:auto;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     border:1px solid #eee;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     border-radius:12px;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     overflow:hidden;">
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:             <div style="background:#8B4513;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                         color:#fff;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                         padding:20px;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                         text-align:center;">
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 <h2 style="margin:0;">
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     Shreeji Decoration
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 </h2>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:             </div>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:             <div style="padding:30px;">
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 <h3>Hello devam parekh,</h3>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 <p>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     Your One-Time Password (OTP) for login is:
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 </p>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 <div style="text-align:center;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                             margin:30px 0;">
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     <span style="
+[2026-08-20 10:48:28] CLIENT -> SERVER:                         font-size:36px;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                         letter-spacing:10px;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                         background:#FFF3E0;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                         padding:15px 30px;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                         border-radius:10px;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                         color:#8B4513;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                         font-weight:bold;
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     ">
+[2026-08-20 10:48:28] CLIENT -> SERVER:                         363387
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     </span>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 </div>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 <p>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     This OTP will expire in
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     <b>5 minutes</b>.
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 </p>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 <p>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     If you did not request this login,
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     simply ignore this email.
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 </p>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 <br>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                 <p>
+[2026-08-20 10:48:28] CLIENT -> SERVER:
+[2026-08-20 10:48:28] CLIENT -> SERVER:                     Regards,<br>
+[2026-08-20 10:48:29] CLIENT -> SERVER:
+[2026-08-20 10:48:29] CLIENT -> SERVER:                     <b>Shreeji Decoration</b>
+[2026-08-20 10:48:29] CLIENT -> SERVER:
+[2026-08-20 10:48:29] CLIENT -> SERVER:                 </p>
+[2026-08-20 10:48:29] CLIENT -> SERVER:
+[2026-08-20 10:48:29] CLIENT -> SERVER:             </div>
+[2026-08-20 10:48:29] CLIENT -> SERVER:
+[2026-08-20 10:48:29] CLIENT -> SERVER:         </div>
+[2026-08-20 10:48:29] CLIENT -> SERVER:
+[2026-08-20 10:48:29] CLIENT -> SERVER:
+[2026-08-20 10:48:29] CLIENT -> SERVER: --b1=_uXDJqOh8ZihtC7uuRKfmtGmoDNKa6yx66214Egz07M--
+[2026-08-20 10:48:29] CLIENT -> SERVER:
+[2026-08-20 10:48:29] CLIENT -> SERVER: .
+[2026-08-20 10:48:30] SERVER -> CLIENT: 250 2.0.0 OK  1787215708 a92af1059eb24-1416ae143edsm27321601c88.10 - gsmtp
+[2026-08-20 10:48:30] CLIENT -> SERVER: QUIT
+[2026-08-20 10:48:30] SERVER -> CLIENT: 221 2.0.0 closing connection a92af1059eb24-1416ae143edsm27321601c88.10 - gsmtp
+[2026-08-20 18:07:34] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-327c3fc6675sm26314992eec.13 - gsmtp
+[2026-08-20 18:07:34] CLIENT -> SERVER: EHLO localhost
+[2026-08-20 18:07:34] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.1]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-20 18:07:34] CLIENT -> SERVER: STARTTLS
+[2026-08-20 18:07:34] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-20 18:07:35] CLIENT -> SERVER: EHLO localhost
+[2026-08-20 18:07:35] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-20 18:07:35] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-20 18:07:36] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-20 18:07:36] CLIENT -> SERVER: [credentials hidden]
+[2026-08-20 18:07:36] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-20 18:07:36] CLIENT -> SERVER: [credentials hidden]
+[2026-08-20 18:07:37] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-20 18:07:37] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-20 18:07:38] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-327c3fc6675sm26314992eec.13 - gsmtp
+[2026-08-20 18:07:38] CLIENT -> SERVER: RCPT TO:<jayaparekh06@gmail.com>
+[2026-08-20 18:07:38] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-327c3fc6675sm26314992eec.13 - gsmtp
+[2026-08-20 18:07:38] CLIENT -> SERVER: DATA
+[2026-08-20 18:07:39] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-327c3fc6675sm26314992eec.13 - gsmtp
+[2026-08-20 18:07:39] CLIENT -> SERVER: Date: Thu, 20 Aug 2026 18:07:33 +0200
+[2026-08-20 18:07:39] CLIENT -> SERVER: To: Jaya <jayaparekh06@gmail.com>
+[2026-08-20 18:07:39] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-20 18:07:39] CLIENT -> SERVER: Subject: Your Login OTP - Shreeji Decoration
+[2026-08-20 18:07:39] CLIENT -> SERVER: Message-ID: <ofi57YovTB0h10MUpY2DKrbyB3qzSrSvhU1Co1h6cHg@localhost>
+[2026-08-20 18:07:39] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-20 18:07:39] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-20 18:07:39] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[2026-08-20 18:07:39] CLIENT -> SERVER:  boundary="b1=_ofi57YovTB0h10MUpY2DKrbyB3qzSrSvhU1Co1h6cHg"
+[2026-08-20 18:07:39] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER: --b1=_ofi57YovTB0h10MUpY2DKrbyB3qzSrSvhU1Co1h6cHg
+[2026-08-20 18:07:39] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER: Hello Jaya,
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER: Your One-Time Password (OTP) for login is: 988658
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER: This OTP will expire in 5 minutes.
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER: If you did not request this login, simply ignore this email.
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER: Regards,
+[2026-08-20 18:07:39] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER: --b1=_ofi57YovTB0h10MUpY2DKrbyB3qzSrSvhU1Co1h6cHg
+[2026-08-20 18:07:39] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:         <div style="font-family:Arial,sans-serif;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     max-width:600px;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     margin:auto;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     border:1px solid #eee;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     border-radius:12px;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     overflow:hidden;">
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:             <div style="background:#8B4513;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                         color:#fff;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                         padding:20px;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                         text-align:center;">
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 <h2 style="margin:0;">
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     Shreeji Decoration
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 </h2>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:             </div>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:             <div style="padding:30px;">
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 <h3>Hello Jaya,</h3>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 <p>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     Your One-Time Password (OTP) for login is:
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 </p>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 <div style="text-align:center;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                             margin:30px 0;">
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     <span style="
+[2026-08-20 18:07:39] CLIENT -> SERVER:                         font-size:36px;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                         letter-spacing:10px;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                         background:#FFF3E0;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                         padding:15px 30px;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                         border-radius:10px;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                         color:#8B4513;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                         font-weight:bold;
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     ">
+[2026-08-20 18:07:39] CLIENT -> SERVER:                         988658
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     </span>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 </div>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 <p>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     This OTP will expire in
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     <b>5 minutes</b>.
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 </p>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 <p>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     If you did not request this login,
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     simply ignore this email.
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 </p>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 <br>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 <p>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     Regards,<br>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                     <b>Shreeji Decoration</b>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:                 </p>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:             </div>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:         </div>
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER: --b1=_ofi57YovTB0h10MUpY2DKrbyB3qzSrSvhU1Co1h6cHg--
+[2026-08-20 18:07:39] CLIENT -> SERVER:
+[2026-08-20 18:07:39] CLIENT -> SERVER: .
+[2026-08-20 18:07:40] SERVER -> CLIENT: 250 2.0.0 OK  1787242059 5a478bee46e88-327c3fc6675sm26314992eec.13 - gsmtp
+[2026-08-20 18:07:40] CLIENT -> SERVER: QUIT
+[2026-08-20 18:07:41] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-327c3fc6675sm26314992eec.13 - gsmtp
+[2026-08-20 18:20:07] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5a478bee46e88-327bf10b584sm30786080eec.16 - gsmtp
+[2026-08-20 18:20:07] CLIENT -> SERVER: EHLO localhost
+[2026-08-20 18:20:08] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.1]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-20 18:20:08] CLIENT -> SERVER: STARTTLS
+[2026-08-20 18:20:08] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-08-20 18:20:09] CLIENT -> SERVER: EHLO localhost
+[2026-08-20 18:20:09] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [36.50.163.1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-08-20 18:20:09] CLIENT -> SERVER: AUTH LOGIN
+[2026-08-20 18:20:09] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-08-20 18:20:09] CLIENT -> SERVER: [credentials hidden]
+[2026-08-20 18:20:09] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-08-20 18:20:09] CLIENT -> SERVER: [credentials hidden]
+[2026-08-20 18:20:10] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-08-20 18:20:10] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-08-20 18:20:10] SERVER -> CLIENT: 250 2.1.0 OK 5a478bee46e88-327bf10b584sm30786080eec.16 - gsmtp
+[2026-08-20 18:20:10] CLIENT -> SERVER: RCPT TO:<jayaparekh06@gmail.com>
+[2026-08-20 18:20:10] SERVER -> CLIENT: 250 2.1.5 OK 5a478bee46e88-327bf10b584sm30786080eec.16 - gsmtp
+[2026-08-20 18:20:10] CLIENT -> SERVER: DATA
+[2026-08-20 18:20:11] SERVER -> CLIENT: 354 Go ahead 5a478bee46e88-327bf10b584sm30786080eec.16 - gsmtp
+[2026-08-20 18:20:11] CLIENT -> SERVER: Date: Thu, 20 Aug 2026 18:20:07 +0200
+[2026-08-20 18:20:11] CLIENT -> SERVER: To: jaya <jayaparekh06@gmail.com>
+[2026-08-20 18:20:11] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-08-20 18:20:11] CLIENT -> SERVER: Subject: Your Login OTP - Shreeji Decoration
+[2026-08-20 18:20:11] CLIENT -> SERVER: Message-ID: <vkTNpToVKRWVeuwrsGZaSkUsh5tTEZrO9ZNTVGDDFUU@localhost>
+[2026-08-20 18:20:11] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-08-20 18:20:11] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-08-20 18:20:11] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[2026-08-20 18:20:11] CLIENT -> SERVER:  boundary="b1=_vkTNpToVKRWVeuwrsGZaSkUsh5tTEZrO9ZNTVGDDFUU"
+[2026-08-20 18:20:11] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER: --b1=_vkTNpToVKRWVeuwrsGZaSkUsh5tTEZrO9ZNTVGDDFUU
+[2026-08-20 18:20:11] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER: Hello jaya,
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER: Your One-Time Password (OTP) for login is: 259813
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER: This OTP will expire in 5 minutes.
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER: If you did not request this login, simply ignore this email.
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER: Regards,
+[2026-08-20 18:20:11] CLIENT -> SERVER: Shreeji Decoration
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER: --b1=_vkTNpToVKRWVeuwrsGZaSkUsh5tTEZrO9ZNTVGDDFUU
+[2026-08-20 18:20:11] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:         <div style="font-family:Arial,sans-serif;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     max-width:600px;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     margin:auto;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     border:1px solid #eee;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     border-radius:12px;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     overflow:hidden;">
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:             <div style="background:#8B4513;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                         color:#fff;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                         padding:20px;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                         text-align:center;">
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 <h2 style="margin:0;">
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     Shreeji Decoration
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 </h2>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:             </div>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:             <div style="padding:30px;">
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 <h3>Hello jaya,</h3>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 <p>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     Your One-Time Password (OTP) for login is:
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 </p>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 <div style="text-align:center;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                             margin:30px 0;">
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     <span style="
+[2026-08-20 18:20:11] CLIENT -> SERVER:                         font-size:36px;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                         letter-spacing:10px;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                         background:#FFF3E0;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                         padding:15px 30px;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                         border-radius:10px;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                         color:#8B4513;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                         font-weight:bold;
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     ">
+[2026-08-20 18:20:11] CLIENT -> SERVER:                         259813
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     </span>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 </div>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 <p>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     This OTP will expire in
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     <b>5 minutes</b>.
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 </p>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 <p>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     If you did not request this login,
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     simply ignore this email.
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 </p>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 <br>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 <p>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     Regards,<br>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                     <b>Shreeji Decoration</b>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:                 </p>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:             </div>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:         </div>
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER: --b1=_vkTNpToVKRWVeuwrsGZaSkUsh5tTEZrO9ZNTVGDDFUU--
+[2026-08-20 18:20:11] CLIENT -> SERVER:
+[2026-08-20 18:20:11] CLIENT -> SERVER: .
+[2026-08-20 18:20:12] SERVER -> CLIENT: 250 2.0.0 OK  1787242811 5a478bee46e88-327bf10b584sm30786080eec.16 - gsmtp
+[2026-08-20 18:20:12] CLIENT -> SERVER: QUIT
+[2026-08-20 18:20:13] SERVER -> CLIENT: 221 2.0.0 closing connection 5a478bee46e88-327bf10b584sm30786080eec.16 - gsmtp
+[2026-09-16 06:03:49] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a92af1059eb24-14395caccf1sm2800414c88.2 - gsmtp
+[2026-09-16 06:03:49] CLIENT -> SERVER: EHLO localhost
+[2026-09-16 06:03:50] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [122.183.32.95]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-09-16 06:03:50] CLIENT -> SERVER: STARTTLS
+[2026-09-16 06:03:50] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[2026-09-16 06:03:51] CLIENT -> SERVER: EHLO localhost
+[2026-09-16 06:03:51] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [122.183.32.95]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[2026-09-16 06:03:51] CLIENT -> SERVER: AUTH LOGIN
+[2026-09-16 06:03:51] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[2026-09-16 06:03:51] CLIENT -> SERVER: [credentials hidden]
+[2026-09-16 06:03:52] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[2026-09-16 06:03:52] CLIENT -> SERVER: [credentials hidden]
+[2026-09-16 06:03:52] SERVER -> CLIENT: 235 2.7.0 Accepted
+[2026-09-16 06:03:52] CLIENT -> SERVER: MAIL FROM:<devamparekh1200@gmail.com>
+[2026-09-16 06:03:53] SERVER -> CLIENT: 250 2.1.0 OK a92af1059eb24-14395caccf1sm2800414c88.2 - gsmtp
+[2026-09-16 06:03:53] CLIENT -> SERVER: RCPT TO:<devamparekh120@gmail.com>
+[2026-09-16 06:03:53] SERVER -> CLIENT: 250 2.1.5 OK a92af1059eb24-14395caccf1sm2800414c88.2 - gsmtp
+[2026-09-16 06:03:53] CLIENT -> SERVER: DATA
+[2026-09-16 06:03:53] SERVER -> CLIENT: 354 Go ahead a92af1059eb24-14395caccf1sm2800414c88.2 - gsmtp
+[2026-09-16 06:03:53] CLIENT -> SERVER: Date: Wed, 16 Sep 2026 06:03:49 +0200
+[2026-09-16 06:03:53] CLIENT -> SERVER: To: DEVAM parekh <devamparekh120@gmail.com>
+[2026-09-16 06:03:53] CLIENT -> SERVER: From: Shreeji Decoration <devamparekh1200@gmail.com>
+[2026-09-16 06:03:53] CLIENT -> SERVER: Subject: Your Login OTP - Shreeji Decoration
+[2026-09-16 06:03:53] CLIENT -> SERVER: Message-ID: <JZZgs6AY9KawwkKBW0ZYbWYVfJNLlDLbspyRUwZ6kcw@localhost>
+[2026-09-16 06:03:53] CLIENT -> SERVER: X-Mailer: PHPMailer 7.1.1 (https://github.com/PHPMailer/PHPMailer)
+[2026-09-16 06:03:53] CLIENT -> SERVER: MIME-Version: 1.0
+[2026-09-16 06:03:53] CLIENT -> SERVER: Content-Type: multipart/alternative;
+[2026-09-16 06:03:53] CLIENT -> SERVER:  boundary="b1=_JZZgs6AY9KawwkKBW0ZYbWYVfJNLlDLbspyRUwZ6kcw"
+[2026-09-16 06:03:53] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER: --b1=_JZZgs6AY9KawwkKBW0ZYbWYVfJNLlDLbspyRUwZ6kcw
+[2026-09-16 06:03:53] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER: Hello DEVAM parekh,
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER: Your One-Time Password (OTP) for login is: 883405
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER: This OTP will expire in 5 minutes.
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER: If you did not request this login, simply ignore this email.
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER: Regards,
+[2026-09-16 06:03:53] CLIENT -> SERVER: Shreeji Decoration
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER: --b1=_JZZgs6AY9KawwkKBW0ZYbWYVfJNLlDLbspyRUwZ6kcw
+[2026-09-16 06:03:53] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:     <div style="font-family:Arial,sans-serif;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 max-width:600px;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 margin:auto;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 border:1px solid #eee;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 border-radius:12px;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 overflow:hidden;">
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:         <div style="background:#8B4513;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                     color:#fff;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                     padding:20px;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                     text-align:center;">
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             <h2 style="margin:0;">
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 Shreeji Decoration
+[2026-09-16 06:03:53] CLIENT -> SERVER:             </h2>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:         </div>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:         <div style="padding:30px;">
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             <h3>Hello DEVAM parekh,</h3>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             <p>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 Your One-Time Password (OTP) for login is:
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             </p>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             <div style="text-align:center;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                         margin:30px 0;">
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 <span style="
+[2026-09-16 06:03:53] CLIENT -> SERVER:                     font-size:36px;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                     letter-spacing:10px;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                     background:#FFF3E0;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                     padding:15px 30px;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                     border-radius:10px;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                     color:#8B4513;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                     font-weight:bold;
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 ">
+[2026-09-16 06:03:53] CLIENT -> SERVER:                     883405
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 </span>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             </div>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             <p>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 This OTP will expire in
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 <b>5 minutes</b>.
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             </p>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             <p>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 If you did not request this login,
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 simply ignore this email.
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             </p>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             <br>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:             <p>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:53] CLIENT -> SERVER:                 Regards,<br>
+[2026-09-16 06:03:53] CLIENT -> SERVER:
+[2026-09-16 06:03:54] CLIENT -> SERVER:                 <b>Shreeji Decoration</b>
+[2026-09-16 06:03:54] CLIENT -> SERVER:
+[2026-09-16 06:03:54] CLIENT -> SERVER:             </p>
+[2026-09-16 06:03:54] CLIENT -> SERVER:
+[2026-09-16 06:03:54] CLIENT -> SERVER:         </div>
+[2026-09-16 06:03:54] CLIENT -> SERVER:
+[2026-09-16 06:03:54] CLIENT -> SERVER:     </div>
+[2026-09-16 06:03:54] CLIENT -> SERVER:
+[2026-09-16 06:03:54] CLIENT -> SERVER:
+[2026-09-16 06:03:54] CLIENT -> SERVER: --b1=_JZZgs6AY9KawwkKBW0ZYbWYVfJNLlDLbspyRUwZ6kcw--
+[2026-09-16 06:03:54] CLIENT -> SERVER:
+[2026-09-16 06:03:54] CLIENT -> SERVER: .
+[2026-09-16 06:03:55] SERVER -> CLIENT: 250 2.0.0 OK  1789531434 a92af1059eb24-14395caccf1sm2800414c88.2 - gsmtp
+[2026-09-16 06:03:55] CLIENT -> SERVER: QUIT
+[2026-09-16 06:03:55] SERVER -> CLIENT: 221 2.0.0 closing connection a92af1059eb24-14395caccf1sm2800414c88.2 - gsmtp

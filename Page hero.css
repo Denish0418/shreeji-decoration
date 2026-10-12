@@ -1,0 +1,33 @@
+/*
+ * page-hero.css
+ * Add this to style.css or include separately.
+ * Styles the hero banner shown at the top of wholesale.php and retail.php.
+ */
+
+/* ─── PAGE HERO BAR (subpages) ─── */
+.page-hero-bar {
+  padding: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.wholesale-hero-bar {
+  background: linear-gradient(135deg, #0d0a04 0%, #3b1a00 60%, #1a0800 100%);
+  border-bottom: 1px solid rgba(200, 167, 106, 0.2);
+}
+
+.retail-hero-bar {
+  background: linear-gradient(135deg, #1a0a2e 0%, #5a1a6e 60%, #0d0820 100%);
+  border-bottom: 1px solid rgba(200, 167, 106, 0.2);
+}
+
+.page-hero-bar .breadcrumb-item a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.page-hero-bar .breadcrumb-item a:hover {
+  color: #C9A063 !important;
+}
+.page-hero-bar .breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255,255,255,0.3);
+}
