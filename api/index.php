@@ -1,5 +1,4 @@
 <?php
-// Forward web traffic to the appropriate page in the root directory
 $request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $path = trim($request_uri, '/');
 
