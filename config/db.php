@@ -1,18 +1,24 @@
 <?php
-$host = getenv('DB_HOST') ?: 'mysql-1598f483-bhagwagardenish-371d.g.aivencloud.com';
-$user = getenv('DB_USER') ?: 'avnadmin';
-$pass = getenv('DB_PASS'); // Loaded from Vercel / environment variable
-$db = getenv('DB_NAME') ?: 'defaultdb';
-$port = (int) (getenv('DB_PORT') ?: 21840);
+$is_vercel = getenv('VERCEL') || getenv('DB_HOST');
 
-$ssl_ca = dirname(__DIR__) . '/certs/ca.pem';
+if ($is_vercel) {
+    // Cloud database (Vercel production)
+    $host = getenv('DB_HOST');
+    $user = getenv('DB_USER');
+    $pass = getenv('DB_PASS');
+    $db = getenv('DB_NAME');
+    $port = (int) getenv('DB_PORT');
+    $ssl_ca = dirname(__DIR__) . '/certs/ca.pem';
 
-$conn = mysqli_init();
-$conn->ssl_set(NULL, NULL, $ssl_ca, NULL, NULL);
+    $conn = mysqli_init();
+    $conn->ssl_set(NULL, NULL, $ssl_ca, NULL, NULL);
+    $conn->real_connect($host, $user, $pass, $db, $port, NULL, MYSQLI_CLIENT_SSL);
+} else {
+    // Local WAMP database
+    $conn = new mysqli('localhost', 'root', '', 'shreeji_decoration');
+}
 
-$connected = $conn->real_connect($host, $user, $pass, $db, $port, NULL, MYSQLI_CLIENT_SSL);
-
-if (!$connected) {
-    die("Connection failed: " . mysqli_connect_error());
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
 ?>
