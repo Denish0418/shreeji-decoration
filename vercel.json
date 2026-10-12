@@ -1,9 +1,9 @@
 {
     "functions": {
-        "api/**/*.php": {
+        "api/*.php": {
             "runtime": "vercel-php@0.7.1"
         },
-        "*.php": {
+        "api/index.php": {
             "runtime": "vercel-php@0.7.1"
         }
     },
@@ -13,8 +13,20 @@
             "status": 404
         },
         {
+            "src": "/(css|js|images|assets)/(.*)",
+            "dest": "/$1/$2"
+        },
+        {
+            "src": "/api/(.*)",
+            "dest": "/api/$1"
+        },
+        {
+            "src": "/ajax/(.*)",
+            "dest": "/api/ajax-proxy.php?route=$1"
+        },
+        {
             "src": "/(.*)",
-            "dest": "/$1"
+            "dest": "/api/index.php"
         }
     ]
 }
